@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Proporciona el precio:");
         double precio = scanner.nextDouble();
         System.out.println("Proporciona el simbolo:");
-        char simbolo = scanner.nextLine().charAt(0);
+        char simbolo = scanner.next().charAt(0);
         System.out.println("Proporciona el envio gratuito:");
         boolean envioGratuito = scanner.nextBoolean();
  
